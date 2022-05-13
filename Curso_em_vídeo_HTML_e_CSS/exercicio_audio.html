@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Introduzindo Áudio</h1>
+    <audio src="exercicio_audio/guanacast-33.mp3" controls autoplay></audio>
+    <!-- 
+        Desse jeito funcionou no meu navegador, porem pode não funcionar em alguns casos, então podemos fazer assim:
+     -->
+     <audio preload="metadata" autoplay controls loop>
+    
+         <source src="exercicio_audio/guanacast-33.mp3" type="audio/mpeg">
+         <source src="exercicio_audio/guanacast-33.ogg" type="audio/ogg">
+         <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="exercicio_audio/guanacast-33.mp3" dowload>Clique aqui para fazer o download.</a></p>
+          <!--
+              "autoplay" serve para ja comaçar a roda o áudio junto com a página
+        "controls" adiciona o "painel de controle" do áudio, aquela caixo com as funçoes de pausar, alterar volume etc..
+
+              O arqivo .ogg não existe na minha máquina, só estou simulando como é recomandado fazer, ou seja, adicionar mais de um tipo de arquivo. Se o primeiro ".mp3" não funcionar, então ira ser reproduzido o ".ogg" e se mesmo assim não funcionar sera exibido em tela a mensagem desejada.-->
+     </audio>
+</body>
+</html>
