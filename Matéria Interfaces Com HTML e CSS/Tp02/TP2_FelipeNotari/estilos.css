@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Tiro+Telugu:ital@0;1&display=swap');
+
+/*index.html*/
+body{
+    background-color:rgb(255,231,185);
+    font-family: 'Tiro Telugu', serif;
+}
+
+p, h1, h2{
+    margin-top:20px;
+    margin-left:5px;
+}
+h1{
+    color:rgb(151, 119, 37);
+    font-size:1.5625em;
+    margin-left:5px;
+}
+h2{
+    color:rgb(151, 119, 37);
+    font-size:1.30em;
+    margin-left:5px;
+}
+#cardapio, #contato{
+    color: black;
+    text-decoration:none;
+}
+#veja-onde{
+    text-decoration:none;
+    color:rgb(151, 119, 37);
+}
+
+#banner{
+    padding: 1em 0em;
+}
+
+/*cardapio.html*/
+caption{
+    color:rgb(151, 119, 37);
+    font-size: 1.5em;
+    padding: 2.3em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+table, th, td{
+    border: 0.1em solid black;
+}
+
+td, th{
+    vertical-align:top;
+}
+
+
+.fotos{
+    width: 0em;
+}
+/*contato.html*/
+#comentario{
+    margin-top:1em;
+}
+#nome, #email, #comentario{
+    border-radius: 0.3em;
+    border-color: black;
+    border-width: 0em;
+}
+#nome-email{
+    margin-top:1em;
+}
+#label-email{
+    margin-left:2em;
+}
